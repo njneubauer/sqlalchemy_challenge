@@ -131,3 +131,4 @@ dmypy.json
 # files to ignore
 Instructions/
 ../.vscode/
+.vscode/
