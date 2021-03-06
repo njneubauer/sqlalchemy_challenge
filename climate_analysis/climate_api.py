@@ -36,6 +36,7 @@ date_format = '%Y-%m-%d'
 
 @app.route("/")
 def index():
+    # Call HTML index file
     return render_template('index.html')
 
 @app.route("/api/v1.0/precipitation")
